@@ -13,7 +13,10 @@ const ImmigrationDetails = () => {
       <h1 id="immi" className="section-title">
         Immi<span>g</span>ration
       </h1>
-
+      <section id="hero">
+          <div className="hero container">
+            </div>
+            </section>
       <div>
         {/* Service Section */}
         <section id="services">
