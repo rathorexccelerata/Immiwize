@@ -10,11 +10,7 @@ const FooterDetails = () => {
           <h2>Available for you always</h2>
           <div className="social-icon">
           </div>
-<<<<<<< HEAD
           <p>Copyright © 2022 IjbhjbuvjvhihummiWize. All rightsssss reserved</p>
-=======
-          <p>Copyright © 2022 ImmiWize. All rightsssss reserved</p>
->>>>>>> f7e1bd838bbbfe4addd562d1c57cf0cdc8f17ae5
         </div>
       </section>
   )
