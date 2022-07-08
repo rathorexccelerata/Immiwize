@@ -11,7 +11,8 @@ const ImmigrationDetails = () => {
   return (
     <>
       <h1 id="immi" className="section-title">
-        Immi<span>g</span>ration
+        {/* Immi<span>g</span>ration */}
+        Let's <span>EXPLORE</span> Together
       </h1>
       <section id="hero">
           <div className="hero container">
@@ -20,7 +21,11 @@ const ImmigrationDetails = () => {
       <div>
         {/* Service Section */}
         <section id="services">
-          {/* <div className="services container"> */}
+           <div className="services container"> 
+          <div className="service-top">
+              <h6 className="section-title"> Opportunites are <span>On the way!</span> </h6>
+              {/* <p>The Services which are offered by ImmiWize!</p> */}
+            </div>
             <div className="service-bottom">
               <div className="service-item">
                 <div className="icon">
@@ -59,7 +64,7 @@ const ImmigrationDetails = () => {
                 <button className="btn btn2">Read More</button>
               </div>
             </div>
-          {/* </div> */}
+           </div> 
         </section>
         {/* End Service Section */}
 
