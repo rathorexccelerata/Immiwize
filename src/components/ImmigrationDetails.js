@@ -14,7 +14,7 @@ const ImmigrationDetails = () => {
         {/* Immi<span>g</span>ration */}
         Let's <span>EXPLORE</span> Together
       </h1>
-      <section id="hero">
+      <section className="bg" id="img">
           <div className="hero container">
             </div>
             </section>
