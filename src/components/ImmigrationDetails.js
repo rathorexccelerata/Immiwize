@@ -4,14 +4,13 @@ import "../css/immiwize.css";
 import Call from "../assets/icons/call.png";
 import Address from "../assets/icons/address.png";
 import Email from "../assets/icons/email.png";
-import Demo from "../assets/images/demo.png";
-import { Link } from "react-router-dom";
+import Immiwize from '../assets/images/immiwize.jpeg'
 
 const ImmigrationDetails = () => {
   return (
     <>
+    <section id="hero"></section>
       <h1 id="immi" className="section-title">
-        {/* Immi<span>g</span>ration */}
         Let's <span>EXPLORE</span> Together
       </h1>
       <section className="bg" id="img">
