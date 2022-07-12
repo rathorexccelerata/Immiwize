@@ -7,7 +7,7 @@ import Loader from "./components/Loader";
 import FooterDetails from "./components/FooterDetails";
 import InstitutionServices from "./routes/InstitutionServices";
 import { Router } from "routes";
-import Scroll from './components/Scroll';
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,7 +26,7 @@ function App() {
           <>
 
             <Homepage /> */}
-              <Scroll showBelow={250}/>
+
             <Routes>
                 
               <Route path="/" element={<Homepage />} />
