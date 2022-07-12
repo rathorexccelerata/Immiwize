@@ -7,22 +7,22 @@ import Email from "../assets/icons/email.png";
 const InstitutionServicesDeatils = () => {
   return (
     <>
-     <section id="hero"></section>
+      <section id="hero"></section>
       <h1 id="immi" className="section-title">
         INSTITUTION <span>SERVICES</span>
-        <p>Paragraph please Samridhi</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corporis.</p>
       </h1>
-      
+
       <section className="institutionbg" id="img">
-          <div className="hero container">
-            </div>
-            </section>
+        <div className="hero container">
+        </div>
+      </section>
       <div>
         {/* Service Section */}
         <section id="services">
-           <div className="services container"> 
-          <div className="service-top">
-              <h6 className="section-title"> Opportunites are <span>On the way!</span> </h6>
+          <div className="services container">
+            <div className="service-top">
+              <h1 className="section-title">Serv<span>i</span>ces</h1>
               {/* <p>The Services which are offered by ImmiWize!</p> */}
             </div>
             <div className="service-bottom">
@@ -30,40 +30,28 @@ const InstitutionServicesDeatils = () => {
                 <div className="icon">
                   <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
                 </div>
-                <h2>Students</h2>
+                <h2>Colleges</h2>
                 <p>
                   We provide you the best path to explore after your studies.
                   Right from finding college to the place of living, we help you
                   settle down.
                 </p>
-                <button className="btn btn2">Read More</button>
+
               </div>
               <div className="service-item">
                 <div className="icon">
                   <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
                 </div>
-                <h2>Skilled Workers</h2>
-                <p>
-                  We have reserved many of the job spots reserved for you. We
-                  ensure your passion is under the guidance of experts by
-                  choosing the right path.
-                </p>
-                <button className="btn btn2">Read More</button>
-              </div>
-              <div className="service-item">
-                <div className="icon">
-                  <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
-                </div>
-                <h2>Visa Consultancy</h2>
+                <h2>Universities</h2>
                 <p>
                   we guide you by exploring many other ways to fulfil your
                   dreams by settling down in your dream country with many other
                   options.
                 </p>
-                <button className="btn btn2">Read More</button>
+
               </div>
             </div>
-           </div> 
+          </div>
         </section>
         {/* End Service Section */}
 
@@ -113,7 +101,7 @@ const InstitutionServicesDeatils = () => {
         </section>
         {/* End Contact Section */}
       </div>
-    
+
     </>
   )
 }

@@ -6,25 +6,25 @@ import HeaderDetails from './HeaderDetails';
 import HomepageDetails from './HomepageDetails';
 import FooterDetails from './FooterDetails';
 const LoaderDetails = () => {
-    const [loading,setLoading] = useState(false)
-    useEffect(()=>{
-      setLoading(true)
-      setTimeout(() => {
-        setLoading(false)
-  
-      }, 1500);
-    },[])
+  const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+
+    }, 1500);
+  }, [])
   return (
     <>
-     <div className='Test'>
-    {
-        loading?
-        <ClipLoader color={'#50E3C2'} loading={loading}  size={100} />
-        :
-        <>
-       <FooterDetails/>
-       </>
-      }
+      <div className='Test'>
+        {
+          loading ?
+            <ClipLoader color={'#50E3C2'} loading={loading} size={100} />
+            :
+            <>
+              <FooterDetails />
+            </>
+        }
       </div>
     </>
   )

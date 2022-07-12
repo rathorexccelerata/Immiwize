@@ -6,9 +6,9 @@ import InstitutionServicesDeatils from '../components/InstitutionServicesDeatils
 const InstitutionServices = () => {
   return (
     <>
-    <HeaderDetails/>
-    <InstitutionServicesDeatils/>
-    <FooterDetails/>
+      <HeaderDetails />
+      <InstitutionServicesDeatils />
+      <FooterDetails />
     </>
   )
 }

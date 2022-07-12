@@ -11,7 +11,7 @@ const ImmigrationDetails = () => {
       <section id="hero"></section>
       <h1 id="immi" className="section-title">
         IMMI<span>G</span>RATION
-        <p>Paragraph please Samridhi</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, corporis.</p>
       </h1>
       <section className="immibg" id="img">
         <div className="hero container">
@@ -22,7 +22,7 @@ const ImmigrationDetails = () => {
         <section id="services">
           <div className="services container">
             <div className="service-top">
-              <h6 className="section-title"> Opportunites are <span>On the way!</span> </h6>
+              <h1 className="section-title">Serv<span>i</span>ces</h1>
               {/* <p>The Services which are offered by ImmiWize!</p> */}
             </div>
             <div className="service-bottom">
@@ -36,7 +36,7 @@ const ImmigrationDetails = () => {
                   Right from finding college to the place of living, we help you
                   settle down.
                 </p>
-                <button className="btn btn2">Read More</button>
+
               </div>
               <div className="service-item">
                 <div className="icon">
@@ -48,7 +48,7 @@ const ImmigrationDetails = () => {
                   ensure your passion is under the guidance of experts by
                   choosing the right path.
                 </p>
-                <button className="btn btn2">Read More</button>
+
               </div>
               <div className="service-item">
                 <div className="icon">
@@ -60,7 +60,7 @@ const ImmigrationDetails = () => {
                   dreams by settling down in your dream country with many other
                   options.
                 </p>
-                <button className="btn btn2">Read More</button>
+
               </div>
             </div>
           </div>

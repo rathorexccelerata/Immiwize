@@ -1,12 +1,11 @@
 import React from 'react'
-import Demo from '../assets/images/demo.png'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import '../css/button.css'
 const HomepageDetails = () => {
 
   return (
     <>
-     <div>
+      <div>
         {/* Hero Section  */}
         <section id="hero">
           <div className="hero container">
@@ -39,8 +38,8 @@ const HomepageDetails = () => {
                   tenetur officia quod
                 </p>
                 <Link to="/immigration">
-                <button className="btn btn2">Read More</button>
-      </Link>
+                  <button className="btn btn2">Read More</button>
+                </Link>
               </div>
               <div className="service-item">
                 <div className="icon">
@@ -53,8 +52,8 @@ const HomepageDetails = () => {
                   tenetur officia quod
                 </p>
                 <Link to="/institutionservices">
-                <button className="btn btn2">Read More</button>
-      </Link>
+                  <button className="btn btn2">Read More</button>
+                </Link>
               </div>
               <div className="service-item">
                 <div className="icon">
@@ -66,7 +65,9 @@ const HomepageDetails = () => {
                   debitis rerum, magni voluptatem sed architecto placeat beatae
                   tenetur officia quod
                 </p>
-                <button className="btn btn2">Read More</button>
+                <Link to="/conciergeservices">
+                  <button className="btn btn2">Read More</button>
+                </Link>
               </div>
               <div className="service-item">
                 <div className="icon">
@@ -78,42 +79,15 @@ const HomepageDetails = () => {
                   debitis rerum, magni voluptatem sed architecto placeat beatae
                   tenetur officia quod
                 </p>
-                <button className="btn btn2">Read More</button>
+                <Link to="/marketplace">
+                  <button className="btn btn2">Read More</button>
+                </Link>
               </div>
             </div>
           </div>
         </section>
         {/* End Service Section */}
 
-
-        {/* About Section */}
-        <section id="about">
-          <div className="about container">
-            <div className="col-left">
-              <div className="about-img">
-                <img src={Demo} />
-              </div>
-            </div>
-            <div className="col-right">
-              <h1 className="section-title">About <span>me</span></h1>
-              <h2>Chief Executive Officer</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Asperiores, velit alias eius non illum beatae atque repellat ratione
-                qui veritatis repudiandae adipisci maiores. At inventore
-                necessitatibus deserunt exercitationem cumque earum omnis ipsum rem
-                accusantium quis, quas quia, accusamus provident suscipit magni!
-                Expedita sint ad dolore, commodi labore nihil velit earum ducimus
-                nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!
-              </p>
-              <a href="#" className="cta"><b><i>Ushvinder Bhatia (Ushi)</i></b><br />
-                <h6>Chief Executive Officer</h6>
-              </a>
-            </div>
-          </div>
-        </section>
-        {/* End About Section */}
-        
       </div>
     </>
   )

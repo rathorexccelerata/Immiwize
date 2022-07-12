@@ -5,7 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 
 const useStyles = makeStyles((theme) => ({
     toTop: {
-        minHeight:'50px',
+        minHeight: '50px',
         minWidth: '50px',
         zIndex: 2,
         position: 'fixed',

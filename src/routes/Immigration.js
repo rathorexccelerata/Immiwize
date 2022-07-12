@@ -7,9 +7,9 @@ import ImmigrationDetails from '../components/ImmigrationDetails'
 const Immigration = () => {
   return (
     <>
-    <HeaderDetails/>
-    <ImmigrationDetails/>
-    <FooterDetails/>
+      <HeaderDetails />
+      <ImmigrationDetails />
+      <FooterDetails />
     </>
   )
 }
