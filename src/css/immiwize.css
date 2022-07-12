@@ -3,10 +3,23 @@
     /* top: 500px; */
 }
 
-.bg{
+.immibg{
     background-image: url(../assets/images/immi.svg);
     background-size: cover;
 	background-position: top center;
+	position: relative;
+	z-index: 1;
+    opacity: 80%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.institutionbg{
+
+    background-image: url(../assets/images/institution.svg);
+    background-size: cover;
+	background-position: center center;
 	position: relative;
 	z-index: 1;
     opacity: 80%;

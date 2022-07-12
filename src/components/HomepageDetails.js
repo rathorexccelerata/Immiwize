@@ -52,7 +52,9 @@ const HomepageDetails = () => {
                   debitis rerum, magni voluptatem sed architecto placeat beatae
                   tenetur officia quod
                 </p>
+                <Link to="/institutionservices">
                 <button className="btn btn2">Read More</button>
+      </Link>
               </div>
               <div className="service-item">
                 <div className="icon">

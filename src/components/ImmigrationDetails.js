@@ -4,24 +4,24 @@ import "../css/immiwize.css";
 import Call from "../assets/icons/call.png";
 import Address from "../assets/icons/address.png";
 import Email from "../assets/icons/email.png";
-import Immiwize from '../assets/images/immiwize.jpeg'
 
 const ImmigrationDetails = () => {
   return (
     <>
-    <section id="hero"></section>
+      <section id="hero"></section>
       <h1 id="immi" className="section-title">
-        Let's <span>EXPLORE</span> Together
+        IMMI<span>G</span>RATION
+        <p>Paragraph please Samridhi</p>
       </h1>
-      <section className="bg" id="img">
-          <div className="hero container">
-            </div>
-            </section>
+      <section className="immibg" id="img">
+        <div className="hero container">
+        </div>
+      </section>
       <div>
         {/* Service Section */}
         <section id="services">
-           <div className="services container"> 
-          <div className="service-top">
+          <div className="services container">
+            <div className="service-top">
               <h6 className="section-title"> Opportunites are <span>On the way!</span> </h6>
               {/* <p>The Services which are offered by ImmiWize!</p> */}
             </div>
@@ -63,7 +63,7 @@ const ImmigrationDetails = () => {
                 <button className="btn btn2">Read More</button>
               </div>
             </div>
-           </div> 
+          </div>
         </section>
         {/* End Service Section */}
 
