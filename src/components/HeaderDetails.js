@@ -3,15 +3,17 @@ import '../css/style.css'
 import Immiwize from '../assets/images/immiwize.jpeg'
 
 const HeaderDetails = () => {
+
   return (
     <>
-      <section id="header">
+    
+    <section id="header">
         <div className="header container1">
           <div className="nav-bar">
             <div className="brand">
               <a href="#hero">
               </a><h1><a href="#hero"> <img src={Immiwize} alt="image" />
-              </a>
+                </a>
               </h1></div>
             <div className="nav-list">
               <div className="hamburger">
@@ -26,9 +28,9 @@ const HeaderDetails = () => {
           </div>
         </div>
       </section>
-
-    </>
-
+     
+      </>
+      
   )
 }
 

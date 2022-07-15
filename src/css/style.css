@@ -1,43 +1,37 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
-
 * {
-
+	
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-
+	
 }
-
 html {
-
+	
 	font-size: 8px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-
-html p {
+html p{
 	font-size: 2vh;
 }
 
 a {
 	text-decoration: none;
 }
-
 .container {
-
+	
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
 img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
-
 p {
 	color: black;
 	font-size: 1.4rem;
@@ -46,17 +40,15 @@ p {
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 }
-
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
 	color: black;
 	margin-bottom: 10px;
-	text-transform: none;
+	text-transform:none;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
-
 .section-title span {
 	color: crimson;
 }
@@ -74,18 +66,15 @@ p {
 	transition: 0.3s ease;
 	transition-property: background-color, color;
 }
-
 .cta:hover {
 	color: white;
 	background-color: crimson;
 }
-
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
 }
-
 .brand h1 span {
 	color: crimson;
 }
@@ -99,13 +88,11 @@ p {
 	width: 100vw;
 	height: auto;
 }
-
 #header .header {
 	min-height: 8vh;
 	background-color: rgba(31, 30, 30, 0.24);
 	transition: 0.3s ease background-color;
 }
-
 #header .nav-bar {
 	display: flex;
 	align-items: center;
@@ -115,7 +102,6 @@ p {
 	max-width: 1300px;
 	padding: 0 10px;
 }
-
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
@@ -132,11 +118,9 @@ p {
 	overflow-x: hidden;
 	transition: 0.5s ease left;
 }
-
 #header .nav-list ul.active {
 	left: 0%;
 }
-
 #header .nav-list ul a {
 	font-size: 2.5rem;
 	font-weight: 500;
@@ -147,7 +131,6 @@ p {
 	padding: 20px;
 	display: block;
 }
-
 #header .nav-list ul a::after {
 	content: attr(data-after);
 	position: absolute;
@@ -160,16 +143,13 @@ p {
 	z-index: -1;
 	transition: 0.3s ease letter-spacing;
 }
-
 #header .nav-list ul li:hover a::after {
 	transform: translate(-50%, -50%) scale(1);
 	letter-spacing: initial;
 }
-
 #header .nav-list ul li:hover a {
 	color: crimson;
 }
-
 #header .hamburger {
 	height: 60px;
 	width: 60px;
@@ -185,7 +165,6 @@ p {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
-
 #header .hamburger:after {
 	position: absolute;
 	content: '';
@@ -195,7 +174,6 @@ p {
 	border: 3px solid white;
 	animation: hamburger_puls 1s ease infinite;
 }
-
 #header .hamburger .bar {
 	height: 2px;
 	width: 30px;
@@ -203,7 +181,6 @@ p {
 	background-color: white;
 	z-index: -1;
 }
-
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
 	content: '';
@@ -215,23 +192,18 @@ p {
 	transition: 0.3s ease;
 	transition-property: top, bottom;
 }
-
 #header .hamburger .bar::after {
 	top: 8px;
 }
-
 #header .hamburger .bar::before {
 	bottom: 8px;
 }
-
 #header .hamburger.active .bar::before {
 	bottom: 0;
 }
-
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-
 /* End Header section */
 
 /* Hero Section */
@@ -242,7 +214,6 @@ p {
 	position: relative;
 	z-index: 1;
 }
-
 #hero::after {
 	content: '';
 	position: absolute;
@@ -254,14 +225,12 @@ p {
 	opacity: 0.7;
 	z-index: -1;
 }
-
 #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-
 #hero h1 {
 	display: block;
 	width: fit-content;
@@ -271,24 +240,19 @@ p {
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
 }
-
 #hero h1:nth-child(1) {
 	animation-delay: 1s;
 }
-
 #hero h1:nth-child(2) {
 	animation-delay: 2s;
 }
-
 #hero h1:nth-child(3) {
 	animation-delay: 3s;
 }
-
 #hero h1:nth-child(4) {
 	animation: text_reveal_name 0.5s ease forwards;
 	animation-delay: 4s;
 }
-
 #hero h1 span {
 	position: absolute;
 	top: 0;
@@ -299,15 +263,12 @@ p {
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
-
 #hero h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
-
 #hero h1:nth-child(2) span {
 	animation-delay: 1.5s;
 }
-
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
@@ -322,12 +283,10 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-
 #services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-
 #services .service-bottom {
 	display: flex;
 	align-items: center;
@@ -335,7 +294,6 @@ p {
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-
 #services .service-item {
 	flex-basis: 80%;
 	display: flex;
@@ -351,7 +309,6 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-
 #services .service-item::after {
 	content: '';
 	position: absolute;
@@ -363,25 +320,21 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-
 #services .service-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
-	text-transform: none;
+	text-transform: uppercase;
 }
-
 #services .service-item p {
 	color: white;
 	text-align: left;
 }
-
 /* End Services Section */
 
 /* Projects section */
@@ -391,18 +344,15 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-
 #projects .projects-header h1 {
 	margin-bottom: 50px;
 }
-
 #projects .all-projects {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-
 #projects .project-item {
 	display: flex;
 	align-items: center;
@@ -413,7 +363,6 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
@@ -425,29 +374,24 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-
 #projects .project-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-
 #projects .project-info p {
 	color: white;
 }
-
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-
 #projects .project-img:after {
 	content: '';
 	position: absolute;
@@ -458,15 +402,12 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
 }
-
 #projects .project-img img {
 	transition: 0.3s ease transform;
 }
-
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
-
 /* End Projects section */
 
 /* About Section */
@@ -477,41 +418,34 @@ p {
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-
 #about .col-left {
 	width: 250px;
 	height: 360px;
 }
-
 #about .col-right {
 	width: 100%;
 }
-
 #about .col-right h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
-
 #about .col-right p {
 	margin-bottom: 20px;
 }
-
 #about .col-right .cta {
 	color: black;
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
 }
-
 #about .col-left .about-img {
 	height: 100%;
 	width: 100%;
 	position: relative;
 	border: 10px solid white;
 }
-
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
@@ -522,7 +456,6 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-
 /* End About Section */
 
 /* contact Section */
@@ -531,14 +464,12 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 90%;
-
+	
 }
-
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
 }
-
 #contact .contact-item {
 	width: 80%;
 	padding: 20px;
@@ -553,29 +484,24 @@ p {
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: 0.3s ease box-shadow;
 }
-
 #contact .contact-item:hover {
 	box-shadow: 0px 0px 5px 0 #0000002c;
 }
-
 #contact .icon {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
-
 #contact .contact-info h1 {
 	font-size: 2.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
-
 #contact .contact-info h2 {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	font-weight: 500;
 }
-
 /*End contact Section */
 
 
@@ -589,7 +515,6 @@ p {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
-
 	h1.section-title {
 		font-size: 6rem;
 	}
@@ -598,7 +523,6 @@ p {
 	#hero h1 {
 		font-size: 7rem;
 	}
-
 	/* End Hero */
 
 	/* Services Section */
@@ -606,46 +530,38 @@ p {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-
 	/* End Services Section */
 
 	/* Project */
 	#projects .project-item {
 		flex-direction: row;
 	}
-
 	#projects .project-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
-
 	#projects .project-item {
 		height: 400px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
-
 	#projects .all-projects .project-info {
 		height: 100%;
 	}
-
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-
 	/* End Project */
 
 	/* About */
 	#about .about {
 		flex-direction: row;
 	}
-
 	#about .col-left {
 		width: 600px;
 		height: 400px;
 		padding-left: 60px;
 	}
-
 	#about .about .col-left .about-img::after {
 		left: -45px;
 		top: 34px;
@@ -653,16 +569,13 @@ p {
 		width: 98%;
 		border: 10px solid crimson;
 	}
-
 	#about .col-right {
 		text-align: left;
 		padding: 30px;
 	}
-
 	#about .col-right h1 {
 		text-align: left;
 	}
-
 	/* End About */
 
 	/* contact  */
@@ -673,7 +586,6 @@ p {
 		justify-content: center;
 		min-width: 20vh;
 	}
-
 	#contact .contact-items {
 		width: 100%;
 		display: flex;
@@ -681,41 +593,33 @@ p {
 		justify-content: space-evenly;
 		margin: 0;
 	}
-
 	#contact .contact-item {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
 	}
-
 	#contact .contact-item .icon {
 		height: 100px;
 		width: 100px;
 	}
-
 	#contact .contact-item .icon img {
 		object-fit: contain;
 	}
-
 	#contact .contact-item .contact-info {
 		width: 100%;
 		text-align: left;
 		padding-left: 20px;
 	}
-
 	/* End contact  */
 }
-
 /* End Media Query For Tablet */
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
-
 	/* header */
 	#header .hamburger {
 		display: none;
 	}
-
 	#header .nav-list ul {
 		position: initial;
 		display: block;
@@ -723,19 +627,15 @@ p {
 		width: fit-content;
 		background-color: transparent;
 	}
-
 	#header .nav-list ul li {
 		display: inline-block;
 	}
-
 	#header .nav-list ul li a {
 		font-size: 1.8rem;
 	}
-
 	#header .nav-list ul a:after {
 		display: none;
 	}
-
 	/* End header */
 
 	#services .service-bottom .service-item {
@@ -743,108 +643,121 @@ p {
 		margin: 1.5%;
 	}
 }
-
 /* End  Media Query For Desktop */
 
 
-.box {
-
-	position: relative;
-	width: 1150px;
-	padding: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+.box
+{
+	
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.box .card {
-	position: relative;
-	width: 320px;
-	height: 450px;
-	background: #fff;
-	margin: 20px;
-	border-radius: 20px;
-	overflow: hidden;
-	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
-	transition: 0.5s;
+.box .card
+{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
 }
 
-.box:hover .card {
-	filter: blur(20px);
-	transform: scale(0.9);
-	opacity: 0.5;
+.box:hover .card
+{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
 }
 
-.box .card:hover {
-	filter: blur(0px);
-	transform: scale(1.1);
-	opacity: 1;
+.box .card:hover
+{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
 }
 
-.box .card .circle {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background-color: #000;
-	clip-path: circle(180px at center 0);
-	text-align: center;
+.box .card .circle
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
 }
 
-.box .card .card h2 {
-	color: #fff;
-	font-size: 4.5em;
-	padding: 30px 0;
+.box .card .card h2
+{
+    color: #fff;
+    font-size: 4.5em;
+    padding: 30px 0;
 }
 
-.box .card .content {
-	position: absolute;
-	bottom: 10px;
-	padding: 20px;
-	text-align: center;
+.box .card .content
+{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
-.box .card .content p {
-	color: #666;
+.box .card .content p
+{
+    color: #666;
 }
 
-.box .card .content a {
-	position: relative;
-	display: inline-block;
-	padding: 10px 20px;
-	background: #000;
-	color: #fff;
-	border-radius: 40px;
-	text-decoration: none;
-	margin-top: 20px;
+.box .card .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 .box .card:nth-child(1) .circle,
-.box .card:nth-child(1) .content a {
-	background: #ffaf00;
+.box .card:nth-child(1) .content a
+{
+    background: #ffaf00;
 }
 
 .box .card:nth-child(2) .circle,
-.box .card:nth-child(2) .content a {
-	background: #da2268;
+.box .card:nth-child(2) .content a
+{
+    background: #da2268;
 }
 
 .box .card:nth-child(3) .circle,
-.box .card:nth-child(3) .content a {
-	background: #bb02ff;
+.box .card:nth-child(3) .content a
+{
+    background: #bb02ff;
 }
 
 .box .card:nth-child(4) .circle,
-.box .card:nth-child(4) .content a {
-	background: #2ed573;
+.box .card:nth-child(4) .content a
+{
+    background: #2ed573;
 }
 
 
-#sec {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: linear-gradient(45deg, #ffaf00, #bb02ff);
-	background-attachment: fixed;
+#sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ffaf00, #bb02ff);
+    background-attachment: fixed;
 }
